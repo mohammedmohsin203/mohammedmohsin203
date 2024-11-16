@@ -130,7 +130,10 @@ A portfolio that scrolls like a dream!
   ![Made with love in India](https://madewithlove.now.sh/in?heart=true&colorA=%23ff69b4&colorB=%23ff1493)
 </div>
 
-<!-- Snake Animation -->
-![Snake animation](https://github.com/mohammedmohsin203/mohammedmohsin203/blob/output/github-contribution-grid-snake-dark.svg)
 
-> 🌟 Note: Don't forget to replace `mohammedmohsin203` with your actual GitHub username!
+<!-- Snake Animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg">
+  <img alt="github-snake" src="dist/github-snake.svg">
+</picture>
